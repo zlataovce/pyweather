@@ -6,4 +6,7 @@ Python 3 bindings for the weather.com website (scraper)
 # Supports:
 - today & tomorrow temperature and weather phrase
 
+# Dependencies:
+- BeautifulSoup4 (pip install BeautifulSoup4)
+
 The scraper needs the url of a city/town weather overview (page when you click on a city/town).
