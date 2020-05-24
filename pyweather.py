@@ -31,7 +31,7 @@ class today:
 
 
 class tomorrow:
-    def temp(url):
+    def temp(url, tmp):
         r = requests.get(url, headers={'user-agent': 'Mozilla/5.0 (Macintosh; '
                                        'Intel Mac OS X 10_12_6) AppleWebKit/53'
                                        '7.36(KHTML, like Gecko) Chrome/63.0.32'
