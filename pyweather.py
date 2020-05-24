@@ -12,7 +12,6 @@ class today:
 		temperaturestr = temp.text
 		return temperaturestr
 	
-	
 	def phrase(url):
 		r = requests.get(url, headers={'user-agent': 'Mozilla/5.0 (Macintosh; '
 									   'Intel Mac OS X 10_12_6) AppleWebKit/537.36'
