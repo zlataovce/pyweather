@@ -16,8 +16,10 @@ class today:
             temperaturewithoutdgr = (withoutdegree - 32) * 5.0/9.0
             temperature = str(temperaturewithoutdgr) + "°"
             return temperature
-        else:
+        elif tmp == "f":
             return temperaturestr
+        else:
+            raise NameError('Invalid unit was specified.')
 
     def phrase(url):
         r = requests.get(url, headers={'user-agent': 'Mozilla/5.0 (Macintosh; '
@@ -45,8 +47,10 @@ class tomorrow:
             temperaturewithoutdgr = (withoutdegree - 32) * 5.0/9.0
             temperature = str(temperaturewithoutdgr) + "°"
             return temperature
-        else:
+        elif tmp == "f":
             return temperaturestr
+        else:
+            raise NameError('Invalid unit was specified.')
 
     def phrase(url):
         r = requests.get(url, headers={'user-agent': 'Mozilla/5.0 (Macintosh; '
