@@ -10,9 +10,9 @@ class today:
 		soup = BeautifulSoup(r.content, "html.parser")
 		temp = soup.find("div", {"class": "today_nowcard-temp"})
 		
-		temperaturestr = temp.text
+		tempstr = temp.text
 		
-		return temperaturestr
+		return tempstr
 
 	def phrase(url):
 		r = requests.get(url, headers={'user-agent': 'Mozilla/5.0 (Macintosh; '
