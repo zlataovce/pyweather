@@ -10,7 +10,8 @@ Tested on Python 3.6, 3.7, 3.8 and 3.8-dev by Travis-CI.
 - fahrenheit and celsius
 
 # Dependencies:
-- BeautifulSoup4 (pip install BeautifulSoup4)
+- BeautifulSoup4 (pip install BeautifulSoup4, for sifting through the html page)
+- requests library (pip install requests, for getting the html page)
 
 The scraper needs the url of a city/town weather overview (page when you click on a city/town) and a string passed to the temp function for the unit (f for fahrenheit and c for celsius). 
 
