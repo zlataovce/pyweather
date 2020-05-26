@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 
 
+# Copyright zlataovce 2020
+# This file is licensed under the GPL-3.0
 class today:
     def temp(url, tmp):
         r = requests.get(url, headers={'user-agent': 'Mozilla/5.0 (Macintosh; '
