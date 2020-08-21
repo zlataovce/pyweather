@@ -3,7 +3,7 @@ Python 3 bindings for the weather.com website (scraper)
 
 Tested on Python 3.6, 3.7, 3.8 and 3.8-dev by Travis-CI.
 
-[![Build Status](https://travis-ci.com/zlataovce/pyweather.svg?branch=master)](https://travis-ci.com/zlataovce/pyweather)
+[![Build Status](https://travis-ci.com/zlataovce/pyweathercom.svg?branch=master)](https://travis-ci.com/zlataovce/pyweathercom)
 
 # Supports:
 - today & tomorrow temperature and weather phrase
